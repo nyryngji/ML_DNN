@@ -1,5 +1,8 @@
 ## Heart Disease Prediction - 심장병 예측
 
+- 데이터 : https://www.kaggle.com/code/neisha/heart-disease-prediction-using-logistic-regression
+<br>
+
 > **1. 데이터 불러오기**
 >
     import pandas as pd 
