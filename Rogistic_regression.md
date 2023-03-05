@@ -33,8 +33,7 @@
 >
     data['BP'] = data['sysBP'] + data['diaBP']
     data.drop(['sysBP', 'diaBP'], axis=1, inplace=True)
-
-<br>
+    
 
 >
     sns.heatmap(data.corr(), cmap='Blues',vmin=-1, vmax=1, annot=True)
